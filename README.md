@@ -51,6 +51,7 @@ mvn spring-boot:run
 The backend will start at http://localhost:8080/.
 
 4. API Endpoints
+   
 GET: /api/students/all
 Get all students
 
