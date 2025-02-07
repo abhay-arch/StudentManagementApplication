@@ -1,4 +1,4 @@
-package com.example.studentApplication.service;
+package com.example.StudentManagementApplication.service;
 
 import java.util.List;
 
@@ -6,10 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 
-import com.example.studentApplication.dto.StudentDTO;
-import com.example.studentApplication.exception.ResourceNotFoundException;
-import com.example.studentApplication.model.Student;
-import com.example.studentApplication.repository.StudentRepository;
+import com.example.StudentManagementApplication.dto.StudentDTO;
+import com.example.StudentManagementApplication.exception.ResourceNotFoundException;
+import com.example.StudentManagementApplication.model.Student;
+import com.example.StudentManagementApplication.repository.StudentRepository;
 
 @Service
 public class StudentServiceImpl implements StudentService {

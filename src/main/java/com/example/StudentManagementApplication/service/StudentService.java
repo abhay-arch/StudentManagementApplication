@@ -1,9 +1,9 @@
-package com.example.studentApplication.service;
+package com.example.StudentManagementApplication.service;
 
 import java.util.List;
 
-import com.example.studentApplication.dto.StudentDTO;
-import com.example.studentApplication.model.Student;
+import com.example.StudentManagementApplication.dto.StudentDTO;
+import com.example.StudentManagementApplication.model.Student;
 
 public interface StudentService {
     Student addStudent(StudentDTO studentDTO);

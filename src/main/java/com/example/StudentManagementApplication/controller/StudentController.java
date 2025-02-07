@@ -1,4 +1,4 @@
-package com.example.studentApplication.controller;
+package com.example.StudentManagementApplication.controller;
 
 import java.util.List;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.studentApplication.dto.StudentDTO;
-import com.example.studentApplication.model.Student;
-import com.example.studentApplication.service.StudentService;
+import com.example.StudentManagementApplication.dto.StudentDTO;
+import com.example.StudentManagementApplication.model.Student;
+import com.example.StudentManagementApplication.service.StudentService;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.DeleteMapping;
